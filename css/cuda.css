@@ -1,0 +1,204 @@
+.main-title::after {
+    content: "";
+    width: 87px;
+    height: 4px;
+    background-color: #000000;
+    position: absolute;
+    left: 50.01%;
+    right: 46.94%;
+    opacity: 0.15;
+    transform: translateX(-50%);
+    bottom:35%;
+}
+/*start navbar*/
+.navbar{
+    background-color:#643A79;
+}
+.navbar .navbar-toggler{
+    color:white;
+    font-size:25px;
+    border-color:white;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow:none;
+}
+.navbar .nav-item .nav-link{
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.navbar .nav-item .nav-link:hover{
+background-color: #643A79;
+opacity: 0.6;
+}
+/*end navbar*/
+/*start landing*/
+.landing{
+    background-color:#643A79;
+    min-height: calc(100vh - 72px);
+}
+.landing .btn-header{
+    background-color:#EB7D4B;
+    box-shadow: none;
+}
+.landing .btn-header:hover{
+background-color:#EB7D4B;
+opacity: 0.6;
+}
+/*end landing*/
+/*start services*/
+.services{
+    background-color:#17C2A4;
+}
+/*end services
+/*start team*/
+.team{
+    background-color:#E5E5E5;
+}
+.team .txt{
+    color:#3C4761;
+}
+.team .team-txt{
+ font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+color: #27283D;
+}
+.team .team-t{
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #30BAE7;
+}
+.team .team-p{
+ font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #3C4761;
+}
+.team .icon-color{
+    background-color: #BDD1DF;
+    color:#FFFFFF;
+}
+/*end team*/
+/*start portfolio*/
+.portfolio{
+    background-color:#E5C37F;
+}
+.portfolio .active{
+background-color:white;
+}
+ .portfolio ul li a{
+    background-color:rgba(0, 0, 0, 0.08);
+    color:#393939;
+    text-transform: capitalize;
+    border-radius: 5px;
+ }
+ .portfolio ul li a:hover{
+    background-color:white;
+ }
+ .portfolio .work-text{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #393939;
+ }
+ .portfolio .btn-work{
+    background-color:#17C2A4;
+    box-shadow: none;
+ }
+ .portfolio .btn-work:hover{
+    background-color:#17C2A4 ;
+    opacity: 0.6;
+ }
+/*end portfolio*/
+/*start about us*/
+.about-us{
+    background-color:#D74680;
+}
+.about-us .about-text{
+    font-family: 'Titillium Web';
+font-style: italic;
+font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.about-us .about-title{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-transform: uppercase;   
+}
+.about-us .about-sec-title{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FFDD99;
+}
+/*end about us*/
+/*start get touch*/
+.touch{
+    background-color:#3C5499;
+}
+.touch .input-tuch {
+    background-color:#273A71;
+    color:#FFFFFF;
+    height: 56px;
+    box-shadow: none;
+    border-color: #3C5499;
+}
+.touch .form-control:focus{
+    border-color:#3C5499;
+}
+.touch .form-control::placeholder{
+    color:#FFFFFF;
+    opacity: 0.6;
+}
+.touch .input-area{
+    background-color:#273A71;
+    color:#FFFFFF;
+    height:200px;
+    box-shadow: none;
+    border-color: #3C5499;
+}
+.touch .btn-touch{
+    background-color:#30BAE7;
+}
+.touch .btn-touch:hover{
+    background-color:#30BAE7;
+    opacity: 0.6;
+}
+/*end get touch*/
+/*start footer*/
+.footer{
+    background-color: #344B8E;
+
+}
+.footer ul li a{
+font-size:20px;
+color:#FFFFFF;
+}
+.footer ul li a:hover{
+    color:#30BAE7;
+}
